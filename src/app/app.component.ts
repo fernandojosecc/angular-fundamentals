@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-store';
+  name = 'Nicolas';
+  age = 20;
+  img = 'https://depor.com/resizer/zYAewNYe84T1H3sm_y61ClAywWI=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/K74I6DN7S5HDZKGZMZ7SJX5ARE.jpg';
 }
