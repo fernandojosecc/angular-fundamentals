@@ -29,9 +29,9 @@
 </p> -->
 
 <h1>*ngFor Objs</h1>
-<div>
+<div class="products--grid">
   <div *ngFor="let product of products">
-    <img width="250" [src]="product.image" alt="image">
+    <img [src]="product.image" alt="image">
     <h2>{{product.price}}</h2>
     <p>{{product.name}}</p>
   </div>
@@ -82,7 +82,9 @@
 <input type="text" [value]="person.name">
 <progress max="100" [value]="person.age"></progress>
 <img width="" [src]="person.avatar" alt="">
+
+<h1>Hola mundo</h1>
 <h2>{{'Hola mundo'.repeat(50)}}</h2>
 <p>3+3={{3+3}}</p>
 <h3>Hola, soy {{name}} y tengo {{age}}</h3>
-<img src={{img}} alt="image">
+<img width="200" src={{img}} alt="image">
